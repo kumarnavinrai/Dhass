@@ -5,12 +5,12 @@
     android:orientation="vertical"
     android:gravity="bottom"
     android:padding="16dp"
-    android:background="#9C27B0">
+    android:background="#0f2d49">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="App Name"
+        android:text="Charge Guard"
         android:textColor="@android:color/white"
         android:textSize="24sp" />
 

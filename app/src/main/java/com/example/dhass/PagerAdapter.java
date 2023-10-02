@@ -17,7 +17,13 @@ public class PagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         // Return the appropriate fragment based on the position
-        return new PlaceholderFragment();
+        if(position == 0){
+            return new FirstFragment();
+        }else if(position == 1){
+            return new SecondFragment();
+        }else{
+            return new PlaceholderFragment();
+        }
     }
 
     @Override
@@ -31,11 +37,11 @@ public class PagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         // Return the title for each tab
         if(position == 0){
-            return "Chats";
-        }else if(position == 1){
             return "Status";
+        }else if(position == 1){
+            return "Alarm";
         }else{
-            return "Calls";
+            return "Settings";
         }
     }
 }

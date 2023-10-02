@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#19120a"
+    android:background="#0f2d49"
     tools:context=".SplashActivity">
 
     <ImageView
